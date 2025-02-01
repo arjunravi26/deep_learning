@@ -97,7 +97,7 @@ with chat_container:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
 
-# Chat input and processing
+## Chat input and processing
 user_query = st.chat_input("Type your coding question here...")
 
 def generate_ai_response(prompt_chain):
