@@ -25,7 +25,7 @@ prompt = ChatPromptTemplate.from_messages(
         ("human", "{input}"),
     ]
 )
-
+# chaining
 chain = prompt | llm
 response2 = chain.invoke(
     {
