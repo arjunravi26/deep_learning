@@ -10,6 +10,7 @@ options.add_argument(r"user-data-dir=folder")
 driver = webdriver.Chrome(options=options)
 driver.get("https://web.whatsapp.com")
 
+# Wait for login (you may need to adjust the sleep time)
 time.sleep(20)
 
 # Find and click on the group chat by its title (change 'Your Group Name' accordingly)
